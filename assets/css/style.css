@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+.titre * {
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center; 
+}
+.titre img {
+    width: 35%;
+}
+h1 {
+    color: #C95122;
+    font-style: oblique;
+}
+.titre2{
+    text-align: center;
+}
+ul li {
+    list-style-type: none;
+    background-color:#E2E2E2 ;
+    padding: .5rem;
+    width: 100%;
+    border-bottom: solid white 3px;   
+}   
+header{
+    display: flex;
+    flex-direction: column;
+}
+img {width: 80%;
+    display: block;
+    margin: auto;
+}
+article h2 {
+    padding: 2rem;
+}
+article  p {
+    margin: 5%;
+}
+footer p {
+    margin: 5%;
+    text-align:center;   
+}
